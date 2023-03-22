@@ -5,6 +5,7 @@ public class Classrooms
 {
     static class Heap
     {
+        //creating an ArrayList of Integers
         ArrayList<Integer> arr = new ArrayList<>();
 
         public void add(int data) //O(logn)
@@ -27,6 +28,7 @@ public class Classrooms
                 par = (x-1)/2;
             }
         }
+        //a method for printing the ArrayList
         public void printHeap() 
         {
             System.out.println(arr);
